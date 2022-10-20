@@ -1,6 +1,6 @@
 import '../styles/InitialScreen.css'
 
-export default function InitialScreen() {
+export default function InitialScreen({ startGame }) {
   return (
     <div className='start'>
         <h1>
@@ -9,7 +9,7 @@ export default function InitialScreen() {
         <p>
             Clique no botão abaixo para começar a jogar!
         </p>
-        <button>
+        <button onClick={startGame}>
             Começar o jogo
         </button>
     </div>
