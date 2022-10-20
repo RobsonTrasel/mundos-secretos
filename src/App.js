@@ -20,7 +20,7 @@ const App = () => {
     const categories = Object.keys(words);
     const category =
       categories[Math.floor(Math.random * Object.keys(words).length)];
-    console.log(categories);
+    console.log(category);
   };
 
   const startGame = () => {
